@@ -1,9 +1,9 @@
-# English Language Pack for Flarum
+# Bulgairan Language Pack for Flarum
+
+Beta!!!
+
 
 ## Installation
 
-This language pack is bundled with [Flarum](http://flarum.org/).
+composer require 7h3ev1l/flarum-ext-bulgarian
 
-## Translating Flarum
-
-Because Flarum is at an early development stage, instructions to translate it are currently unavailable. Please check [our documentation](http://flarum.org/docs/translate/) when it will be written.
