@@ -57,38 +57,38 @@ flarum-tags:
 
     # These translations are used by the Choose Tags modal dialog.
     choose_tags:
-      choose_primary_placeholder: "Избери главен таг|Избери {count} главни тагове"
-      choose_secondary_placeholder: "Избери още 1 таг|Избери {count} още тагове"
-      edit_title: "Редактиране на тагове за {title}"
+      choose_primary_placeholder: "Избери главна категория|Избери {count} главни категории"
+      choose_secondary_placeholder: "Избери още 1 категория|Избери {count} още категории"
+      edit_title: "Редактиране на категория за {title}"
       submit_button: => core.ref.okay
-      title: Избери таг за дискусията ти
+      title: Избери категория за дискусията ти
 
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
-      choose_tags_link: Избери тагове
+      choose_tags_link: Избери категория
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
-      edit_tags_button: Редактирай таговете
+      edit_tags_button: Редактирай категориите
 
     # These translations are used on the index page, peripheral to the discussion list.
     index:
       more_link: Още...
       tags_link: => flarum-tags.ref.tags
-      untagged_link: Няма тагове
+      untagged_link: Няма категории
 
     # These translations are displayed between posts in the post stream.
     post_stream:
       added_tags_text: "{username} добави {tagsAdded}."
       added_and_removed_tags_text: "{username} добави {tagsAdded} и махна {tagsRemoved}."
       removed_tags_text: "{username} премахна {tagsRemoved}."
-      tags_text: "{tags} таг|{tags} тагове"
+      tags_text: "{tags} категория|{tags} категории"
 
   # Translations in this namespace are used by the forum and admin interfaces.
   lib:
 
     # This translation is displayed in place of the name of a tag that's been deleted.
-    deleted_tag_text: Изтрит
+    deleted_tag_text: (изтрит-a категория)
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
@@ -96,6 +96,6 @@ flarum-tags:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    create_tag: Създай таг
+    create_tag: Нова категория
     name: Име
-    tags: Тагове
+    tags: Категории
