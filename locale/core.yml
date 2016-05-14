@@ -177,7 +177,7 @@ core:
       body_placeholder: => core.ref.write_a_reply
       discard_confirmation: "Не сте публикували мнението. Искате ли да го откажете?"
       posted_message: Твоето мнение е публикувано
-      submit_button: Напиши мнение
+      submit_button: Публикувай мнението
       view_button: Преглед
 
     # These translations are used by the discussion control buttons.
@@ -243,7 +243,7 @@ core:
       newest_button: Най-нови
       oldest_button: Най-стари
       relevance_button: Съвпадение
-      top_button: Горе
+      top_button: Топ-теми
 
     # These translations are used in the Log In modal dialog.
     log_in:
@@ -277,8 +277,8 @@ core:
 
     # These translations are used in the scrubber to the right of the post stream.
     post_scrubber:
-      now_link: Сега
-      original_post_link: Оригинално мнение
+      now_link: Последно мнение
+      original_post_link: Първо мнение
       unread_text: "{count} непрочетено"
       viewing_text: "{index} от {count} мнение|{index} от {count} мнения"
 
@@ -328,7 +328,7 @@ core:
       bio_placeholder: Кажете нещо за себе си...
       discussions_link: Теми
       in_discussion_text: "В {discussion}"
-      joined_date_text: "Присъединил се {ago}"
+      joined_date_text: "Присъединил се: {ago}."
       online_text: Онлайн
       posts_load_more_button: => core.ref.load_more
       posts_link: Мнения

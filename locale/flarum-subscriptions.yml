@@ -34,11 +34,11 @@ flarum-subscriptions:
     # These translations are used in the subscription menu displayed to the right of the post stream.
     sub_controls:
       follow_button: => flarum-subscriptions.ref.follow
-      following_button: => flarum-subscriptions.ref.following
+      following_button: Следваш темата
       following_text: Уведомяване за всички отговори
       ignoring_button: => flarum-subscriptions.ref.ignoring
       ignoring_text: Никога няма да бъдеш уведомяван. Скриване от листа с теми.
-      not_following_button: Не следваш
+      not_following_button: Не си абониран за темата
       not_following_text: "Уведомяване само когато сте @споменати."
       notify_alert_tooltip: Получи форум уведомление когато има нови мнения
       notify_email_tooltip: Получи имейл уведомление когато има нови мнения
@@ -50,5 +50,5 @@ flarum-subscriptions:
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
     follow: Последвай
-    following: Следва
-    ignoring: Игнорира
+    following: Абонаменти
+    ignoring: Игнорирай
