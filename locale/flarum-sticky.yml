@@ -16,17 +16,17 @@ flarum-sticky:
 
     # These translations are displayed as tooltips for discussion badges.
     badge:
-      sticky_tooltip: => flarum-sticky.ref.sticky
+      sticky_tooltip: => Закачено
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
       sticky_button: => flarum-sticky.ref.sticky
-      unsticky_button: Unsticky
+      unsticky_button: Откачи
 
     # These translations are displayed between posts in the post stream.
     post_stream:
-      discussion_stickied_text: "{username} stickied the discussion."
-      discussion_unstickied_text: "{username} unstickied the discussion."
+      discussion_stickied_text: "{username} закачи темата."
+      discussion_unstickied_text: "{username} откачи темата."
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
@@ -34,4 +34,4 @@ flarum-sticky:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    sticky: Sticky
+    sticky: Закачи

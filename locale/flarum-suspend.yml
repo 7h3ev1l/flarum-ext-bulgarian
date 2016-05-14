@@ -16,18 +16,18 @@ flarum-suspend:
 
     # These translations are used in the Suspend User modal dialog (admin function).
     suspend_user:
-      indefinitely_label: Suspended indefinitely
-      limited_time_label: Suspended for a limited time...
-      limited_time_days_text: " days"
-      not_suspended_label: Not suspended
-      status_heading: Suspension Status
+      indefinitely_label: Банни завинаги
+      limited_time_label: Банни за определено време...
+      limited_time_days_text: " дни"
+      not_suspended_label: Не е баннат
+      status_heading: Статус на бана
       submit_button: => core.ref.save_changes
-      title: "Suspend {username}"
+      title: "Банни {username}"
 
     # These translations are displayed as tooltips for user badges.
     user_badge:
-      suspended_tooltip: Suspended
+      suspended_tooltip: Баннат
 
     # These translations are found on the user profile page (admin function).
     user_controls:
-      suspend_button: Suspend
+      suspend_button: Банни
