@@ -63,14 +63,14 @@ validation:
   url: "The :attribute format is invalid."
 
   attributes:
-    username: username
-    password: password
-    email: email
-    title: title
-    content: content
+    username: потребителско име
+    password: парола
+    email: имейл
+    title: заглавие
+    content: съдържание
     name_singular: singular name
     name_plural: plural name
 
   custom:
     username:
-      regex: "The username may only contain letters, numbers, and dashes."
+      regex: "Потребителското име може да съдържа само букви, цифри и тирета!"
