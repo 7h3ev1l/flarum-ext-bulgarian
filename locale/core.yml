@@ -253,7 +253,7 @@ core:
       sign_up_text: "Нямаш профил? <a>Регистрирай се</a>"
       submit_button: => core.ref.log_in
       title: => core.ref.log_in
-      username_or_email_placeholder: Име / имейл
+      username_or_email_placeholder: Име / Имейл
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
