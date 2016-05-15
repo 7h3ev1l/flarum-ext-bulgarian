@@ -483,7 +483,7 @@ core:
   ##
   # GROUP NAMES - These keys are translated at the back end.
   ##
-
+  core.basic.loading_text: Зареждане...
   # Translations in this namespace are used to translate default group names.
   group:
     admin: Админ
