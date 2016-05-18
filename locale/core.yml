@@ -200,7 +200,7 @@ core:
       load_more_button: => core.ref.load_more
       mark_as_read_tooltip: Маркирай като прочетено
       replied_text: "{username} отговори {ago}"
-      started_text: "{username} започна {ago}"
+      started_text: "{username} започна(то) {ago}"
 
     # These translations are used in the Edit User modal dialog (admin function).
     edit_user:
